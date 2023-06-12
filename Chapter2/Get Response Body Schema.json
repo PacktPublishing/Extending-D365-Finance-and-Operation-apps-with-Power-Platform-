@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "properties": {
+        "responseTime": {
+            "type": "string" 
+        }, 
+        "responder": { 
+            "type": "object", 
+            "properties": { 
+                "objectId": { 
+                    "type": "string" 
+                }, 
+                "tenantId": { 
+                    "type": "string" 
+                }, 
+                "email": { 
+                    "type": "string" 
+                }, 
+                "userPrincipalName": { 
+                    "type": "string" 
+                }, 
+                "displayName": { 
+                    "type": "string" 
+                } 
+            } 
+        }, 
+        "submitActionId": { 
+            "type": "string"
+        }, 
+        "messageId": { 
+            "type": "string"
+        },
+        "messageLink": {
+            "type": "string"
+        }
+    }
+}
