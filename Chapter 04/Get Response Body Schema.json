@@ -1,37 +1,104 @@
 {
-    "type": "object",
-    "properties": {
-        "responseTime": {
-            "type": "string" 
-        }, 
-        "responder": { 
-            "type": "object", 
-            "properties": { 
-                "objectId": { 
-                    "type": "string" 
-                }, 
-                "tenantId": { 
-                    "type": "string" 
-                }, 
-                "email": { 
-                    "type": "string" 
-                }, 
-                "userPrincipalName": { 
-                    "type": "string" 
-                }, 
-                "displayName": { 
-                    "type": "string" 
-                } 
-            } 
-        }, 
-        "submitActionId": { 
-            "type": "string"
-        }, 
-        "messageId": { 
-            "type": "string"
-        },
-        "messageLink": {
-            "type": "string"
-        }
-    }
+    "type": "object",
+    "properties": {
+        "BusinessEventId": {
+            "type": "string"
+        },
+        "BusinessEventLegalEntity": {
+            "type": "string"
+        },
+        "ContextRecId": {
+            "type": "integer"
+        },
+        "ContextRecordSubject": {
+            "type": "string"
+        },
+        "ControlNumber": {
+            "type": "integer"
+        },
+        "EventCategory": {
+            "type": "string"
+        },
+        "EventId": {
+            "type": "string"
+        },
+        "EventTime": {
+            "type": "string"
+        },
+        "EventTimeIso8601": {
+            "type": "string"
+        },
+        "InitiatingUserAADObjectId": {
+            "type": "string"
+        },
+        "LinkToWeb": {
+            "type": "string"
+        },
+        "ListOfOutcomes": {},
+        "MajorVersion": {
+            "type": "integer"
+        },
+        "MinorVersion": {
+            "type": "integer"
+        },
+        "OutcomeName": {
+            "type": "string"
+        },
+        "ParentContextRecordSubjects": {},
+        "SerializedWorkflowDocumentData": {},
+        "WorkflowComment": {
+            "type": "string"
+        },
+        "WorkflowConfigurationId": {
+            "type": "string"
+        },
+        "WorkflowCorrelationId": {
+            "type": "string"
+        },
+        "WorkflowCreatedDateTime": {
+            "type": "string"
+        },
+        "WorkflowDocument": {
+            "type": "string"
+        },
+        "WorkflowDueDate": {
+            "type": "string"
+        },
+        "WorkflowInstanceId": {
+            "type": "string"
+        },
+        "WorkflowLastActionUser": {
+            "type": "string"
+        },
+        "WorkflowOriginator": {
+            "type": "string"
+        },
+        "WorkflowOwner": {
+            "type": "string"
+        },
+        "WorkflowSequenceNumber": {
+            "type": "string"
+        },
+        "WorkflowStepInstruction": {
+            "type": "string"
+        },
+        "WorkflowTemplateName": {
+            "type": "string"
+        },
+        "WorkflowUserEmail": {
+            "type": "string"
+        },
+        "WorkflowVersion": {
+            "type": "string"
+        },
+        "WorkflowWorkItemInstanceId": {
+            "type": "string"
+        },
+        "WorkflowWorkItemSubject": {
+            "type": "string"
+        },
+        "WorkitemOwner": {
+            "type": "string"
+        }
+    }
 }
